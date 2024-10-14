@@ -1,0 +1,28 @@
+body{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #5ca1d7;
+}
+.banner{
+    margin: 0 35%;
+    color: white;
+    text-align: center;
+}
+.list{
+    margin: 0 35%;
+    text-align: left;
+}
+img {
+    display: block;
+    margin: auto;
+    width: 10%;
+}
+h2{
+    margin: 2% 40%;
+    color: white;
+}
+.footero{
+    padding: 0 auto;
+    margin: 0 40%;
+}
