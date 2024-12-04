@@ -1,0 +1,79 @@
+
+body{
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    padding: 5px 35px 5px 35px;
+    width: 100px;
+}
+nav a{
+    color: #918037;
+    text-align: center;
+    text-decoration: none;
+    padding: 40px;
+}
+nav a:hover {
+    background-color: #2828f4;
+    color: white;
+}
+header{
+    background-color: #3232A6;
+}
+
+main{
+    text-align: center;
+}
+.banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+}
+.hero{
+    justify-self: center;
+    width: 400px;
+    grid-row: 1/5;
+    grid-column: 4/7;
+}
+.banner-h{
+    justify-self: center;
+    grid-row: 2/3;
+    grid-column: 2/4;
+}
+.banner-p{
+    align-self: center;
+    grid-row: 2/4;
+    grid-column: 2/4;
+}
+.bulk{
+    padding: 0 100px;
+}
+footer{
+    padding: 15px;
+    color: #918037;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #3232A6;
+}
+.copy{
+    justify-self: center;
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+.ff{
+    justify-self: center;
+    grid-column: 3/4;
+    grid-row: 1/3;
+}
+.social{
+    justify-self: center;
+    grid-row: 1/3;
+    grid-column: 5/7;
+}
