@@ -11,7 +11,7 @@ nav {
     width: 100px;
 }
 nav a{
-    color: #918037;
+    color: #eeee84;
     text-align: center;
     text-decoration: none;
     padding: 40px;
@@ -54,7 +54,7 @@ main{
 }
 footer{
     padding: 15px;
-    color: #918037;
+    color: #eeee84;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
